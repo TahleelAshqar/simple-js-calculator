@@ -14,4 +14,5 @@ function number(num)
 function result()
 {
     document.getElementById('result').value = eval(document.getElementById('result').value)
+
 }

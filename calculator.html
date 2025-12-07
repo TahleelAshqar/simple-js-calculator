@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link src="calculator.css"></link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <!-- for the shape of the buttons: --> 
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css" integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous">
+    <title> Calculator </title>
+    <script src="./calculator.js"></script>
+</head>
+
+<body style="background-color: azure">
+    <h1 style="text-align:center; color:blueviolet"> מחשבון 4 פעולות </h1>
+    <br />
+
+    <div style="text-align:center;">
+        <input/ id="result" style="text-align:center ;"> 
+        <br />
+        <br />
+        <button type="button" value=+ onclick="number('+')"> + </button>
+        <button type="button" value=- onclick="number('-')"> - </button>
+        <button type="button" value=* onclick="number('*')"> * </button>
+        <button type="button" value=/ onclick="number('/')"> / </button>
+        <br />
+        <button type="button" value="=" onclick="result()"> = </button>
+        <button type="button" > AC </button>
+        <button type="button" value=. onclick="number('.')"> . </button>
+        <button type="button" > +/- </button>
+        <br />
+        <br />
+        <button type="button" value=0 onclick="number(0)" > 0 </button>
+        <button type="button" value=1 onclick="number(1)"> 1 </button>
+        <button type="button" value=2 onclick="number(2)"> 2 </button>
+        <br />
+        <button type="button" value=3 onclick="number(3)"> 3 </button>
+        <button type="button" value=4 onclick="number(4)"> 4 </button>
+        <button type="button" value=5 onclick="number(5)"> 5 </button>
+        <br />
+        <button type="button" value=6 onclick="number(6)"> 6 </button>
+        <button type="button" value=7 onclick="number(7)"> 7 </button>
+        <button type="button" value=8 onclick="number(8)"> 8 </button>
+        <br />
+        <button type="button" value=9 onclick="number(9)"> 9 </button>
+    </div>
+
+
+</body>
+
+</html>
